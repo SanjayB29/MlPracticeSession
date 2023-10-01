@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    margin-top: 10px;
+}
+
+#dataInputs {
+    margin-top: 20px;
+}
+
+#results {
+    margin-top: 20px;
+}
+
+/* Responsive layout */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+    
+    label, input {
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    button {
+        width: 100%;
+    }
+}
